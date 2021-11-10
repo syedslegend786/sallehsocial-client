@@ -1,0 +1,33 @@
+export const globalConstants = {
+    AUTH: "AUTH",
+    ALERT: "ALERT",
+    THEME: 'THEME',
+    STATUS: 'STATUS',
+    MODAL: 'MODAL',
+    SOCKET: 'SOCKET',
+    ONLINE: 'ONLINE',
+    OFFLINE: 'OFFLINE',
+    CALL: 'CALL',
+    PEER: 'PEER',
+}
+
+export const profileConstants = {
+    PROFILE_REQUEST: "PROFILE_REQUEST",
+    PROFILE_SUCCESS: "PROFILE_SUCCESS",
+    FOLLOW: 'FOLLOW',
+    FOLLOWING: 'FOLLOWING',
+    UNFOLLOW: 'UNFOLLOW',
+    UNFOLLOWING: 'UNFOLLOWING',
+}
+export const authConstants = {
+    SOCKET_FOLLOW: "SOCKET_FOLLOW",
+    SOCKET_UNFOLLOW: "SOCKET_UNFOLLOW",
+}
+
+export const notifyConstants = {
+    GET_NOTIFIES: "GET_NOTIFIES",
+    SOCKET_NOTIFY_GET: "SOCKET_NOTIFY_GET",
+    SOCKET_NOTIFY_DELETE: "SOCKET_NOTIFY_DELETE",
+    NOTIFY_UPDATE: "NOTIFY_UPDATE",
+    NOTIFY_DELETE_ALL: "NOTIFY_DELETE_ALL"
+}
